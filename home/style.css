@@ -1,0 +1,39 @@
+fieldset{
+    width: fit-content;
+}
+header {
+    border: 1px solid black;
+    padding: 0 0 15px;
+    background-color: lightseagreen;
+    color:white;
+}
+header h1 {
+   text-align: center;
+   margin: 0 5px 5px;
+   font-style: italic;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    background-color: lightblue; 
+    border-radius: 25%;
+    margin: 15px;
+}
+header a:hover {
+    text-decoration: underline;
+}
+legend {
+    background-color: #F0F0F0;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+main {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
